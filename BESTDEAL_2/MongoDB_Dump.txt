@@ -1,0 +1,70 @@
+{ "_id" : ObjectId("5817af883e70dd1280a9e8a7"), "title" : "myReviewsjsp", "produ
+ctName" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 3
+99, "retailer" : "MotoG", "retailerzip" : 60616, "retailercity" : "CHICAGO", "re
+tailerstate" : "Illinois", "sale" : "Yes", "mfname" : "Sony", "rebate" : "Yes",
+"userid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" :
+ "Student", "reviewRating" : 5, "reviewDate" : "10/31/2016", "reviewText" : " Ex
+cellent Phone" }
+{ "_id" : ObjectId("5817afc13e70dd1280a9e8aa"), "title" : "myReviewsjsp", "produ
+ctName" : "Sony01", "productID" : "T001", "category" : "Tablet", "price" : 399,
+"retailer" : "Sony", "retailerzip" : 60616, "retailercity" : "CHICAGO", "retaile
+rstate" : "Illinois", "sale" : "Yes", "mfname" : "OnePlus", "rebate" : "Yes", "u
+serid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" : "
+Student", "reviewRating" : 5, "reviewDate" : "10/31/2016", "reviewText" : " Nice
+" }
+{ "_id" : ObjectId("5817aff93e70dd1280a9e8ac"), "title" : "myReviewsjsp", "produ
+ctName" : "Sony001", "productID" : "L001", "category" : "Laptop", "price" : 399,
+ "retailer" : "Sony", "retailerzip" : 60630, "retailercity" : "CHICAGO", "retail
+erstate" : "Illinois", "sale" : "Yes", "mfname" : "Moto", "rebate" : "Yes", "use
+rid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" : "St
+udent", "reviewRating" : 4, "reviewDate" : "10/15/2016", "reviewText" : " Good"
+}
+{ "_id" : ObjectId("5817b0253e70dd1280a9e8ae"), "title" : "myReviewsjsp", "produ
+ctName" : "SonyHawkEye", "productID" : "V001", "category" : "TV", "price" : 399,
+ "retailer" : "Sony", "retailerzip" : 60610, "retailercity" : "CHICAGO", "retail
+erstate" : "Illinois", "sale" : "Yes", "mfname" : "Toshiba", "rebate" : "Yes", "
+userid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" :
+"Student", "reviewRating" : 3, "reviewDate" : "10/15/2016", "reviewText" : " Ok"
+ }
+{ "_id" : ObjectId("5817b0523e70dd1280a9e8b0"), "title" : "myReviewsjsp", "produ
+ctName" : "OnePlus3", "productID" : "S002", "category" : "SmartPhone", "price" :
+ 299, "retailer" : "OnePlus", "retailerzip" : 60610, "retailercity" : "CHICAGO",
+ "retailerstate" : "Illinois", "sale" : "Yes", "mfname" : "Moto", "rebate" : "Ye
+s", "userid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupatio
+n" : "Student", "reviewRating" : 3, "reviewDate" : "10/31/2016", "reviewText" :
+" Nice" }
+{ "_id" : ObjectId("5817b0793e70dd1280a9e8b2"), "title" : "myReviewsjsp", "produ
+ctName" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 3
+99, "retailer" : "MotoG", "retailerzip" : 60606, "retailercity" : "CHICAGO", "re
+tailerstate" : "Illinois", "sale" : "Yes", "mfname" : "Moto", "rebate" : "Yes",
+"userid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" :
+ "Student", "reviewRating" : 2, "reviewDate" : "10/15/2016", "reviewText" : " Ni
+ce" }
+{ "_id" : ObjectId("5817b0a73e70dd1280a9e8b4"), "title" : "myReviewsjsp", "produ
+ctName" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 3
+99, "retailer" : "MotoG", "retailerzip" : 60607, "retailercity" : "CHICAGO", "re
+tailerstate" : "Illinois", "sale" : "Yes", "mfname" : "Dell", "rebate" : "Yes",
+"userid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" :
+ "Student", "reviewRating" : 1, "reviewDate" : "10/31/2016", "reviewText" : " Ba
+d" }
+{ "_id" : ObjectId("5817b0d33e70dd1280a9e8b6"), "title" : "myReviewsjsp", "produ
+ctName" : "Sony01", "productID" : "T001", "category" : "Tablet", "price" : 399,
+"retailer" : "Sony", "retailerzip" : 60609, "retailercity" : "CHICAGO", "retaile
+rstate" : "Illinois", "sale" : "Yes", "mfname" : "Sony", "rebate" : "Yes", "user
+id" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" : "Stu
+dent", "reviewRating" : 1, "reviewDate" : "10/15/2016", "reviewText" : " Worst"
+}
+{ "_id" : ObjectId("5817b0f43e70dd1280a9e8b8"), "title" : "myReviewsjsp", "produ
+ctName" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 3
+99, "retailer" : "MotoG", "retailerzip" : 60616, "retailercity" : "CHICAGO", "re
+tailerstate" : "Illinois", "sale" : "Yes", "mfname" : "LG", "rebate" : "Yes", "u
+serid" : "vedant", "userage" : "23", "usergender" : "Male", "userOccupation" : "
+Student", "reviewRating" : 2, "reviewDate" : "10/31/2016", "reviewText" : " Not
+Good" }
+{ "_id" : ObjectId("5817bbabafdd4107f02002a8"), "title" : "myReviewsjsp", "produ
+ctName" : "LGSmooth", "productID" : "V003", "category" : "TV", "price" : 399, "r
+etailer" : "LG", "retailerzip" : 60616, "retailercity" : "CHICAGO", "retailersta
+te" : "Illinois", "sale" : "Yes", "mfname" : "LG", "rebate" : "Yes", "userid" :
+"vedant", "userage" : "23", "usergender" : "Male", "userOccupation" : "Student",
+ "reviewRating" : 5, "reviewDate" : "10/31/2016", "reviewText" : " Good Product"
+ }
