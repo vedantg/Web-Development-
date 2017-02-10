@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <SmartPhone id="S001" retailer="MotoG">
+        <image>'images/s_01.jpg'</image>
+        <name>MotoG2</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </SmartPhone>
+    <SmartPhone id="S002" retailer="OnePlus">
+        <image>'images/s_02.jpg'</image>
+        <name>OnePlus3</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </SmartPhone>
+    <SmartPhone id="S003" retailer="Sony">
+        <image>'images/s_03.jpg'</image>
+        <name>SonyWalkman</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </SmartPhone>
+    <SmartPhone id="S004" retailer="OnePlus">
+        <image>'images/s_04.jpg'</image>
+        <name>OnePlus2</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </SmartPhone>
+    <SmartPhone id="S005" retailer="LG">
+        <image>'images/s_05.jpg'</image>
+        <name>LG92</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </SmartPhone>
+    
+</ProductCatalog>

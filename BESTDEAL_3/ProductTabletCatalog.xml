@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <Tablet id="T001" retailer="Sony">
+        <image>'images/tab_01.jpg'</image>
+        <name>Sony01</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </Tablet>
+    <Tablet id="T002" retailer="Dell">
+        <image>'images/tab_02.jpg'</image>
+        <name>Dell360</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Tablet>
+    <Tablet id="T003" retailer="LG">
+        <image>'images/tab_03.jpg'</image>
+        <name>LG021</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </Tablet>
+    <Tablet id="T004" retailer="Motorola">
+        <image>'images/tab_04.png'</image>
+        <name>Moto360</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Tablet>
+    <Tablet id="T005" retailer="Apple">
+        <image>'images/tab_05.jpg'</image>
+        <name>AppleTab</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Tablet>
+</ProductCatalog>

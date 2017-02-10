@@ -1,0 +1,82 @@
+> db.myReviews.find()
+{ "_id" : ObjectId("58048cc4bcfe7d139877a143"), "title" : "myReviews", "productN
+ame" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 399,
+ "retailer" : "MotoG", "retailerzip" : 60616, "retailercity" : "Chicago", "retai
+lerstate" : "Illinois", "sale" : "Yes", "mfname" : "Moto", "rebate" : "Yes", "us
+erid" : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "s
+tudent", "reviewRating" : 5, "reviewDate" : "10/16/2016", "reviewText" : " Very
+Nice Product..!!" }
+{ "_id" : ObjectId("58048d4dbcfe7d139877a144"), "title" : "myReviews", "productN
+ame" : "Sony01", "productID" : "T001", "category" : "Tablet", "price" : 399, "re
+tailer" : "Sony", "retailerzip" : 60616, "retailercity" : "chicago", "retailerst
+ate" : "Illinois", "sale" : "Yes", "mfname" : "Sony", "rebate" : "Yes", "userid"
+ : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "studen
+t", "reviewRating" : 5, "reviewDate" : "10/15/2016", "reviewText" : " Nice" }
+{ "_id" : ObjectId("58048deabcfe7d139877a145"), "title" : "myReviews", "productN
+ame" : "Sony001", "productID" : "L001", "category" : "Laptop", "price" : 399, "r
+etailer" : "Sony", "retailerzip" : 60630, "retailercity" : "Alaska", "retailerst
+ate" : "Arizona", "sale" : "Yes", "mfname" : "Toshiba", "rebate" : "Yes", "useri
+d" : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "stud
+ent", "reviewRating" : 4, "reviewDate" : "10/15/2016", "reviewText" : " Great" }
+
+{ "_id" : ObjectId("58048e4bbcfe7d139877a146"), "title" : "myReviews", "productN
+ame" : "SonyHawkEye", "productID" : "V001", "category" : "TV", "price" : 399, "r
+etailer" : "Sony", "retailerzip" : 60610, "retailercity" : "Alaska", "retailerst
+ate" : "Arizona", "sale" : "Yes", "mfname" : "Toshiba", "rebate" : "Yes", "useri
+d" : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "stud
+ent", "reviewRating" : 3, "reviewDate" : "10/15/2016", "reviewText" : " bad" }
+{ "_id" : ObjectId("58048e95bcfe7d139877a147"), "title" : "myReviews", "productN
+ame" : "OnePlus3", "productID" : "S002", "category" : "SmartPhone", "price" : 29
+9, "retailer" : "OnePlus", "retailerzip" : 60610, "retailercity" : "chicago", "r
+etailerstate" : "ILLINOIS", "sale" : "Yes", "mfname" : "OnePlus", "rebate" : "Ye
+s", "userid" : "vedant", "userage" : "23", "usergender" : "male", "userOccupatio
+n" : "student", "reviewRating" : 3, "reviewDate" : "10/15/2016", "reviewText" :
+" good" }
+{ "_id" : ObjectId("58048f3dbcfe7d139877a148"), "title" : "myReviews", "productN
+ame" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 399,
+ "retailer" : "MotoG", "retailerzip" : 60606, "retailercity" : "Chicago", "retai
+lerstate" : "Illinois", "sale" : "Yes", "mfname" : "OnePlus", "rebate" : "Yes",
+"userid" : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" :
+ "student", "reviewRating" : 2, "reviewDate" : "10/15/2016", "reviewText" : " Go
+odd one" }
+{ "_id" : ObjectId("58048f97bcfe7d139877a149"), "title" : "myReviews", "productN
+ame" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 399,
+ "retailer" : "MotoG", "retailerzip" : 60607, "retailercity" : "chicago", "retai
+lerstate" : "IL", "sale" : "Yes", "mfname" : "Moto", "rebate" : "Yes", "userid"
+: "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "student
+", "reviewRating" : 1, "reviewDate" : "10/15/2016", "reviewText" : " must" }
+{ "_id" : ObjectId("58049002bcfe7d139877a14a"), "title" : "myReviews", "productN
+ame" : "Sony01", "productID" : "T001", "category" : "Tablet", "price" : 399, "re
+tailer" : "Sony", "retailerzip" : 60609, "retailercity" : "Phoenix", "retailerst
+ate" : "Arizona", "sale" : "Yes", "mfname" : "OnePlus", "rebate" : "Yes", "useri
+d" : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "stud
+ent", "reviewRating" : 1, "reviewDate" : "10/15/2016", "reviewText" : " good" }
+{ "_id" : ObjectId("5804907fbcfe7d139877a14b"), "title" : "myReviews", "productN
+ame" : "MotoG2", "productID" : "S001", "category" : "SmartPhone", "price" : 399,
+ "retailer" : "MotoG", "retailerzip" : 60616, "retailercity" : "CHICAGO", "retai
+lerstate" : "IL", "sale" : "Yes", "mfname" : "Moto", "rebate" : "Yes", "userid"
+: "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "student
+", "reviewRating" : 2, "reviewDate" : "10/15/2016", "reviewText" : " great one"
+}
+{ "_id" : ObjectId("580493ebbcfe7d139877a153"), "title" : "myReviews", "productN
+ame" : "Samsung80", "productID" : "L003", "category" : "Laptop", "price" : 299,
+"retailer" : "Samsung", "retailerzip" : 60616, "retailercity" : "CHICAGO", "reta
+ilerstate" : "Illinois", "sale" : "Yes", "mfname" : "OnePlus", "rebate" : "Yes",
+ "userid" : "vedant", "userage" : "23", "usergender" : "male", "userOccupation"
+: "student", "reviewRating" : 4, "reviewDate" : "10/15/2016", "reviewText" : " G
+ood" }
+{ "_id" : ObjectId("5804d3d4a2dcc31c98855caa"), "title" : "myReviews", "productN
+ame" : "LG92", "productID" : "S005", "category" : "SmartPhone", "price" : 299, "
+retailer" : "LG", "retailerzip" : 60616, "retailercity" : "Chicago", "retailerst
+ate" : "Illinois", "sale" : "Yes", "mfname" : "Sony", "rebate" : "Yes", "userid"
+ : "vedant", "userage" : "23", "usergender" : "male", "userOccupation" : "studen
+t", "reviewRating" : 5, "reviewDate" : "10/17/2016", "reviewText" : " The Produc
+t is very good." }
+{ "_id" : ObjectId("5804d4f0a2dcc31c98855cac"), "title" : "myReviews", "productN
+ame" : "HCL90", "productID" : "L005", "category" : "Laptop", "price" : 299, "ret
+ailer" : "HCL", "retailerzip" : 60616, "retailercity" : "Chicago", "retailerstat
+e" : "Illinois", "sale" : "Yes", "mfname" : "LG", "rebate" : "Yes", "userid" : "
+vedant", "userage" : "25", "usergender" : "male", "userOccupation" : "student",
+"reviewRating" : 4, "reviewDate" : "10/17/2016", "reviewText" : " This Product v
+ery good." }
+>

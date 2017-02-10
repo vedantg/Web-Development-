@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <TV id="V001" retailer="JVC">
+        <image>'images/tv_1.jpg'</image>
+        <name>JVC</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </TV>
+    <TV id="V002" retailer="Sony">
+        <image>'images/tv_2.jpg'</image>
+        <name>Sony Xperia</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </TV>
+     <TV id="V003" retailer="LG">
+        <image>'images/tv_3.jpg'</image>
+        <name>LGSmooth</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </TV>
+    <TV id="V004" retailer="Samsung">
+        <image>'images/tv_4.jpg'</image>
+        <name>Samsung360</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </TV>
+    <TV id="V005" retailer="Inspiron">
+        <image>'images/tv_5.jpg'</image>
+        <name>Inspiron</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </TV>
+</ProductCatalog>

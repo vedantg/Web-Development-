@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <Laptop id="L001" retailer="Sony">
+        <image>'images/lp_01.png'</image>
+        <name>Sony</name>
+        <condition>New</condition>
+        <price>399</price>
+        <accessories>
+            <accessory>XBOX controller</accessory>
+            <accessory>Turtle Beach Headset</accessory>
+        </accessories>
+    </Laptop>
+    <Laptop id="L002" retailer="Dell">
+        <image>'images/lp_02.jpg'</image>
+        <name>Dell</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Laptop>
+    <Laptop id="L003" retailer="Samsung">
+        <image>'images/lp_03.png'</image>
+        <name>Samsung</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Laptop>
+
+    <Laptop id="L004" retailer="Lenovo">
+        <image>'images/lp_04.jpg'</image>
+        <name>Lenovo</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Laptop>
+    <Laptop id="L005" retailer="HCL">
+        <image>'images/lp_05.jpg'</image>
+        <name>HCL</name>
+        <condition >Refurbished</condition>
+        <price>299</price>
+        <accessories>
+            <accessory>Speeding Wheel</accessory>
+            <accessory>Wireless Adapter</accessory>
+        </accessories>
+        </Laptop>
+</ProductCatalog>
