@@ -1,0 +1,231 @@
+{
+     "carID" : "c1",
+        "carName" : "Skoda Superb",
+        "number_of_seats" : 4,
+        "price" : 29.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Skoda",
+        "carType" : "Luxury",
+        "filename" : "Skoda1",
+        "location_id" : "60616"
+
+}
+
+{
+     "carID" : "c2",
+        "carName" : "Jaguar Xls",
+        "number_of_seats" : 4,
+        "price" : 39.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Jaguar",
+        "carType" : "Luxury",
+        "filename" : "Jaguar1",
+        "location_id" : "60616"
+
+}
+
+{
+   "carID" : "c3",
+        "carName" : "Mercedes S class",
+        "number_of_seats" : 7,
+        "price" : 40.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Mercedes Benz",
+        "carType" : "Luxury",
+        "filename" : "Merc2",
+        "location_id" : "60616"    
+}
+
+{
+   "carID" : "c4",
+        "carName" : "Toyota Camary",
+        "number_of_seats" : 7,
+        "price" : 41.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "No",
+        "manufacturer" : "Toyota",
+        "carType" : "Luxury",
+        "filename" : "Merc2",
+        "location_id" : "60616"    
+}
+
+{
+     "carID" : "c5",
+        "carName" : "Skoda Octavia",
+        "number_of_seats" : 4,
+        "price" : 29.99,
+        "rating" : 4,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Skoda",
+        "carType" : "Luxury",
+        "filename" : "Skoda1",
+        "location_id" : "60617"
+
+}
+
+{
+     "carID" : "c6",
+        "carName" : "Jaguar Sports",
+        "number_of_seats" : 4,
+        "price" : 39.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Jaguar",
+        "carType" : "Luxury",
+        "filename" : "Jaguar2",
+        "location_id" : "60617"
+
+}
+
+{
+   "carID" : "c7",
+        "carName" : "Mercedes S class",
+        "number_of_seats" : 7,
+        "price" : 40.99,
+        "rating" : 4,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Mercedes Benz",
+        "carType" : "Luxury",
+        "filename" : "Merc2",
+        "location_id" : "60617"    
+}
+
+{
+   "carID" : "c8",
+        "carName" : "Toyota Fortuner",
+        "number_of_seats" : 7,
+        "price" : 41.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Toyota",
+        "carType" : "Luxury",
+        "filename" : "Toyota2",
+        "location_id" : "60617"    
+}
+
+{
+     "carID" : "c9",
+        "carName" : "Skoda Superb",
+        "number_of_seats" : 4,
+        "price" : 9.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Skoda",
+        "carType" : "Standard",
+        "filename" : "Skoda1",
+        "location_id" : "60618"
+
+}
+
+{
+     "carID" : "c10",
+        "carName" : "Jaguar Xls",
+        "number_of_seats" : 4,
+        "price" : 12.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Jaguar",
+        "carType" : "SUV",
+        "filename" : "Jaguar1",
+        "location_id" : "60618"
+
+}
+
+{
+   "carID" : "c11",
+        "carName" : "Mercedes S class",
+        "number_of_seats" : 7,
+        "price" : 22.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Mercedes Benz",
+        "carType" : "Economy",
+        "filename" : "Merc2",
+        "location_id" : "60618"    
+}
+
+{
+   "carID" : "c12",
+        "carName" : "Toyota Camary",
+        "number_of_seats" : 7,
+        "price" : 35.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "No",
+        "manufacturer" : "Toyota",
+        "carType" : "Luxury",
+        "filename" : "Merc2",
+        "location_id" : "60618"    
+}
+
+{
+     "carID" : "c13",
+        "carName" : "Skoda Octavia",
+        "number_of_seats" : 4,
+        "price" : 8.99,
+        "rating" : 4,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Skoda",
+        "carType" : "SUV",
+        "filename" : "Skoda1",
+        "location_id" : "60619"
+
+}
+
+{
+     "carID" : "c14",
+        "carName" : "Jaguar Sports",
+        "number_of_seats" : 4,
+        "price" : 15.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Jaguar",
+        "carType" : "Luxury",
+        "filename" : "Jaguar2",
+        "location_id" : "60619"
+
+}
+
+{
+   "carID" : "c15",
+        "carName" : "Mercedes S class",
+        "number_of_seats" : 7,
+        "price" : 25.99,
+        "rating" : 4,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Mercedes Benz",
+        "carType" : "Economy",
+        "filename" : "Merc2",
+        "location_id" : "60619"    
+}
+
+{
+   "carID" : "c16",
+        "carName" : "Toyota Fortuner",
+        "number_of_seats" : 7,
+        "price" : 35.99,
+        "rating" : 5,
+        "transmission" : "Automatic",
+        "airConditioning" : "Yes",
+        "manufacturer" : "Toyota",
+        "carType" : "Standard",
+        "filename" : "Toyota2",
+        "location_id" : "60619"    
+}
