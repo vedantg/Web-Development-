@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="~/webserv/App_Code/vice.cs" Class="Service" %>

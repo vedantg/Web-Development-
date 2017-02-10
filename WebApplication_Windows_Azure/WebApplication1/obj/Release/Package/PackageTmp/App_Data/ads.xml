@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+ 
+  <Ad>
+    <ImageUrl>~/img/glob.jpg</ImageUrl>
+    <AlternateText>dotnetcurry.com Write For Us</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/computer.png</ImageUrl>
+    <AlternateText>dotnetcurry.com Write For Us</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/andr1.jpg</ImageUrl>
+    <AlternateText>DotNetCurry Home Page</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/url.png</ImageUrl>
+    <AlternateText>SQL Server Curry Home Page</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>small</Keyword>
+  </Ad>
+ </Advertisements>

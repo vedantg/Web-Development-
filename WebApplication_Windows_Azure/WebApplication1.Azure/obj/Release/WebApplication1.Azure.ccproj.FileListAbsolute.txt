@@ -1,0 +1,8 @@
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\bin\Release\ServiceConfiguration.cscfg
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\bin\Release\ServiceDefinition.csdef
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\obj\Release\WebApplication1\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\obj\Release\WebApplication1\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\obj\Release\WebApplication1\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\obj\Release\WebApplication1\bin\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\obj\Release\WebApplication1\bin\WebApplication1.dll
+C:\Users\MyComp\Documents\Visual Studio 2010\Projects\WebApplication1\WebApplication1.Azure\obj\Release\WebApplication1\bin\WebApplication1.pdb

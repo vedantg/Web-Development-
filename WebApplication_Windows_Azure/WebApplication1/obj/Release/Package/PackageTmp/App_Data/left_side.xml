@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+ <Ad>
+ 
+    <AlternateText>ASP.net course is available at our institute..</AlternateText>
+   <NavigateUrl>http://www.dotnetcurry.com</NavigateUrl>
+    <Impressions>60</Impressions>
+    <Keyword>small</Keyword>
+ </Ad>
+ <Ad>
+  
+    <AlternateText>'ABC' organisation is our new tie up..</AlternateText>
+   <NavigateUrl>http://www.dotnetcurry.com</NavigateUrl>
+    <Impressions>60</Impressions>
+    <Keyword>small</Keyword>
+ </Ad>
+ <Ad>
+   
+    <AlternateText>C,C++ and JAVA courses..</AlternateText>
+   <NavigateUrl>http://www.dotnetcurry.com</NavigateUrl>
+    <Impressions>60</Impressions>
+    <Keyword>small</Keyword>
+ </Ad>
+  
+</Advertisements>

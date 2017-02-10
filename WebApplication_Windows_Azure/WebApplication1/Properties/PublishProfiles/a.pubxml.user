@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>12/15/2012 17:57:43</publishTime>
+    </File>
+    <File Include="ACCOUNT.aspx">
+      <publishTime>12/21/2012 00:17:25</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="achivements.aspx">
+      <publishTime>12/15/2012 17:58:50</publishTime>
+    </File>
+    <File Include="admin.aspx">
+      <publishTime>12/15/2012 18:02:32</publishTime>
+    </File>
+    <File Include="apply.aspx">
+      <publishTime>12/21/2012 02:56:06</publishTime>
+    </File>
+    <File Include="App_Data/ads.xml">
+      <publishTime>12/10/2012 22:13:18</publishTime>
+    </File>
+    <File Include="App_Data/ASPNETDB.MDF">
+      <publishTime>12/21/2012 05:48:02</publishTime>
+    </File>
+    <File Include="App_Data/aspnetdb_log.ldf">
+      <publishTime>12/21/2012 05:48:02</publishTime>
+    </File>
+    <File Include="App_Data/comments.xml">
+      <publishTime>12/15/2012 17:32:14</publishTime>
+    </File>
+    <File Include="App_Data/Database1.mdf">
+      <publishTime>12/14/2012 18:15:36</publishTime>
+    </File>
+    <File Include="App_Data/Database1_log.LDF">
+      <publishTime>12/14/2012 18:15:36</publishTime>
+    </File>
+    <File Include="App_Data/left_side.xml">
+      <publishTime>12/10/2012 09:18:35</publishTime>
+    </File>
+    <File Include="App_Data/System.Web.HttpCookie11.xml">
+      <publishTime>12/10/2012 09:18:35</publishTime>
+    </File>
+    <File Include="App_Data/vik36.xml">
+      <publishTime>12/10/2012 09:18:35</publishTime>
+    </File>
+    <File Include="bg.jpg">
+      <publishTime>12/15/2012 15:29:07</publishTime>
+    </File>
+    <File Include="bin/WebApplication1.dll">
+      <publishTime>12/22/2012 21:01:40</publishTime>
+    </File>
+    <File Include="blog.aspx">
+      <publishTime>12/15/2012 17:25:29</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/20/2012 22:26:01</publishTime>
+    </File>
+    <File Include="faq.aspx">
+      <publishTime>12/20/2012 22:07:46</publishTime>
+    </File>
+    <File Include="Fill.aspx">
+      <publishTime>12/13/2012 01:08:45</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="governer.aspx">
+      <publishTime>12/15/2012 18:03:55</publishTime>
+    </File>
+    <File Include="image/15.jpg">
+      <publishTime>12/10/2012 09:18:35</publishTime>
+    </File>
+    <File Include="image/awards.jpg">
+      <publishTime>12/10/2012 09:18:35</publishTime>
+    </File>
+    <File Include="image/black_background_wood-wallpaper-1280x768.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/governors.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/head3.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/images.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/mission.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/partners.gif">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/separator.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/sony.gif">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/style.css">
+      <publishTime>12/15/2012 10:18:01</publishTime>
+    </File>
+    <File Include="image/table.bmp">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/think_different_apple_mac_58-wallpaper-1600x900.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/University.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/values.jpg">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="image/wood.bmp">
+      <publishTime>12/10/2012 09:18:36</publishTime>
+    </File>
+    <File Include="images/1.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/11.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/2.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/222.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/3.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/33.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/4.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/44.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/5.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/55.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/6.jpg">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/7.jpeg">
+      <publishTime>12/22/2012 10:41:10</publishTime>
+    </File>
+    <File Include="images/overlay.png">
+      <publishTime>12/15/2012 15:39:22</publishTime>
+    </File>
+    <File Include="images/wallpaper-android1.jpg">
+      <publishTime>12/22/2012 10:43:05</publishTime>
+    </File>
+    <File Include="img/3.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/collegetechtop.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/cubes_abstract-wide.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/ed.png">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/edu.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/edu1.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/edu2.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/edu3.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/educational1.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/educational2.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/educational3.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/football_3-wallpaper-1600x900.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/forestresearchinstitute.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/highlight.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/Madras_HC_Educational_institutions_covered_by_ESI_Act.jpeg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/nature_0030.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="img/pda-college-engg-gulbarga.jpg">
+      <publishTime>12/10/2012 22:11:05</publishTime>
+    </File>
+    <File Include="information.aspx">
+      <publishTime>12/21/2012 01:01:43</publishTime>
+    </File>
+    <File Include="mission.aspx">
+      <publishTime>12/15/2012 18:04:13</publishTime>
+    </File>
+    <File Include="our_parteners.aspx">
+      <publishTime>12/15/2012 18:04:34</publishTime>
+    </File>
+    <File Include="Register.aspx">
+      <publishTime>01/01/2005 06:43:40</publishTime>
+    </File>
+    <File Include="REGSTD.aspx">
+      <publishTime>12/22/2012 10:05:53</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>12/10/2012 09:12:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.easing.1.3.js">
+      <publishTime>12/15/2012 15:24:59</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>12/22/2012 20:55:06</publishTime>
+    </File>
+    <File Include="status.aspx">
+      <publishTime>12/10/2012 10:31:35</publishTime>
+    </File>
+    <File Include="student_account.aspx">
+      <publishTime>12/20/2012 01:43:58</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>12/11/2012 23:44:48</publishTime>
+    </File>
+    <File Include="Styles/style.css">
+      <publishTime>12/22/2012 10:41:31</publishTime>
+    </File>
+    <File Include="Styles/vik.css">
+      <publishTime>12/10/2012 09:18:54</publishTime>
+    </File>
+    <File Include="Styles/vision.jpg">
+      <publishTime>12/10/2012 09:18:54</publishTime>
+    </File>
+    <File Include="title.png">
+      <publishTime>12/15/2012 15:29:07</publishTime>
+    </File>
+    <File Include="values.aspx">
+      <publishTime>12/15/2012 18:05:05</publishTime>
+    </File>
+    <File Include="vesion.aspx">
+      <publishTime>12/10/2012 10:53:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/22/2012 21:01:42</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>12/15/2012 15:45:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

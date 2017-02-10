@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6AFDF43-4D85-4C2A-BEAF-D5B927442B17}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="ApplicationServices-Deployment" Order="1">
+          <Destination Path="" />
+          <Object Type="dbFullSql">
+            <PreSource Path="Data Source=.\SQLEXPRESS%3bAttachDbFilename=|DataDirectory|\aspnetdb.mdf%3bIntegrated Security=True%3bUser Instance=True" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" />
+            <Source Path="obj\Debug\AutoScripts\ApplicationServices-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+        <ObjectGroup Name="be_con-Deployment" Order="2">
+          <Destination Path="" />
+          <Object Type="dbFullSql">
+            <PreSource Path="Data Source=tcp:kaivfwefgp.database.windows.net,1433%3bInitial Catalog=beproj%3bIntegrated Security=False%3bUser ID=vedant%40kaivfwefgp%3bPassword={GODand1691}%3bConnect Timeout=30%3bEncrypt=True" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" />
+            <Source Path="obj\Debug\AutoScripts\be_con-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=1.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="ACCOUNT.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="achivements.aspx" />
+    <Content Include="admin.aspx" />
+    <Content Include="android.aspx" />
+    <Content Include="apply.aspx" />
+    <Content Include="App_Data\ads.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\apply.xml" />
+    <Content Include="App_Data\BEI100587.xml" />
+    <Content Include="App_Data\comments.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\left_side.xml" />
+    <Content Include="back_serv.asmx" />
+    <Content Include="bg.jpg" />
+    <Content Include="blog.aspx" />
+    <Content Include="chng_pw.aspx" />
+    <Content Include="ext.asmx" />
+    <Content Include="faq.aspx" />
+    <Content Include="forgot.aspx" />
+    <Content Include="governer.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\11.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\222.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\33.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\44.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\55.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpeg" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\wallpaper-android1.jpg" />
+    <Content Include="image\15.jpg" />
+    <Content Include="image\awards.jpg" />
+    <Content Include="image\black_background_wood-wallpaper-1280x768.jpg" />
+    <Content Include="image\governors.jpg" />
+    <Content Include="image\head3.jpg" />
+    <Content Include="image\images.jpg" />
+    <Content Include="image\mission.jpg" />
+    <Content Include="image\partners.gif" />
+    <Content Include="image\separator.jpg" />
+    <Content Include="image\sony.gif" />
+    <Content Include="image\style.css" />
+    <Content Include="image\table.bmp" />
+    <Content Include="image\think_different_apple_mac_58-wallpaper-1600x900.jpg" />
+    <Content Include="image\University.jpg" />
+    <Content Include="image\values.jpg" />
+    <Content Include="image\wood.bmp" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\andr icon1.jpg" />
+    <Content Include="img\andr1.jpg" />
+    <Content Include="img\android.jpg" />
+    <Content Include="img\collegetechtop.jpg" />
+    <Content Include="img\computer.png" />
+    <Content Include="img\cubes_abstract-wide.jpg" />
+    <Content Include="img\ed.png" />
+    <Content Include="img\edu.jpg" />
+    <Content Include="img\edu2.jpg" />
+    <Content Include="img\football_3-wallpaper-1600x900.jpg" />
+    <Content Include="img\forestresearchinstitute.jpg" />
+    <Content Include="img\glob.jpg" />
+    <Content Include="img\Grad.png" />
+    <Content Include="img\highlight.jpg" />
+    <Content Include="img\inst1.jpg" />
+    <Content Include="img\inst2.jpg" />
+    <Content Include="img\inst3.jpg" />
+    <Content Include="img\Madras_HC_Educational_institutions_covered_by_ESI_Act.jpeg" />
+    <Content Include="img\nature_0030.jpg" />
+    <Content Include="img\pda-college-engg-gulbarga.jpg" />
+    <Content Include="img\thoughtbeat.png" />
+    <Content Include="img\url.jpg" />
+    <Content Include="img\url.png" />
+    <Content Include="img\web.png" />
+    <Content Include="img\web2.png" />
+    <Content Include="information.aspx" />
+    <Content Include="mission.aspx" />
+    <Content Include="old\Service.asmx" />
+    <Content Include="our_parteners.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="REGSTD.aspx" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="status.aspx" />
+    <Content Include="student_account.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\vik.css" />
+    <Content Include="Styles\vision.jpg" />
+    <Content Include="title.png" />
+    <Content Include="values.aspx" />
+    <Content Include="vesion.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="webserv\vice.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ACCOUNT.aspx.cs">
+      <DependentUpon>ACCOUNT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ACCOUNT.aspx.designer.cs">
+      <DependentUpon>ACCOUNT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="achivements.aspx.cs">
+      <DependentUpon>achivements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="achivements.aspx.designer.cs">
+      <DependentUpon>achivements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="android.aspx.cs">
+      <DependentUpon>android.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="android.aspx.designer.cs">
+      <DependentUpon>android.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="apply.aspx.cs">
+      <DependentUpon>apply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apply.aspx.designer.cs">
+      <DependentUpon>apply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="back_serv.asmx.cs">
+      <DependentUpon>back_serv.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="chng_pw.aspx.cs">
+      <DependentUpon>chng_pw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chng_pw.aspx.designer.cs">
+      <DependentUpon>chng_pw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ext.asmx.cs">
+      <DependentUpon>ext.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgot.aspx.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgot.aspx.designer.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="governer.aspx.cs">
+      <DependentUpon>governer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="governer.aspx.designer.cs">
+      <DependentUpon>governer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="information.aspx.cs">
+      <DependentUpon>information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="information.aspx.designer.cs">
+      <DependentUpon>information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mission.aspx.cs">
+      <DependentUpon>mission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mission.aspx.designer.cs">
+      <DependentUpon>mission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="old\App_Code\Service.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="our_parteners.aspx.cs">
+      <DependentUpon>our_parteners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="our_parteners.aspx.designer.cs">
+      <DependentUpon>our_parteners.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REGSTD.aspx.cs">
+      <DependentUpon>REGSTD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REGSTD.aspx.designer.cs">
+      <DependentUpon>REGSTD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="status.aspx.cs">
+      <DependentUpon>status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="status.aspx.designer.cs">
+      <DependentUpon>status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student_account.aspx.cs">
+      <DependentUpon>student_account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student_account.aspx.designer.cs">
+      <DependentUpon>student_account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="values.aspx.cs">
+      <DependentUpon>values.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="values.aspx.designer.cs">
+      <DependentUpon>values.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vesion.aspx.cs">
+      <DependentUpon>vesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vesion.aspx.designer.cs">
+      <DependentUpon>vesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webserv\App_Code\vice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="new\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\ThoughtBeat.zip" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="images\Thumbs.db" />
+    <None Include="image\Thumbs.db" />
+    <None Include="img\Thumbs.db" />
+    <None Include="Properties\PublishProfiles\a.pubxml" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10069</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
